@@ -41,7 +41,6 @@ type Launch = {
     rocket: Rocket
 }
 
-
 function GetLaunches() {
     const { loading, error, data } = useQuery(LAUNCHES);
 
